@@ -1,0 +1,28 @@
+#root {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* Ensure content takes full height for vertical centering if needed */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Glass panel utility class */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: 1.5rem;
+}
+
+/* Firefox fallback: use a more opaque background if backdrop-filter is not supported */
+@supports not (backdrop-filter: blur(12px)) {
+  .glass-panel {
+    background: rgba(15, 23, 42, 0.85);
+  }
+}
