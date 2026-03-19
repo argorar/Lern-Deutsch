@@ -73,7 +73,9 @@ export const vocabularyLevels = [
       { id: "7-2", de: "Dienstag", es: "Martes" },
       { id: "7-3", de: "Mittwoch", es: "Miércoles" },
       { id: "7-4", de: "Donnerstag", es: "Jueves" },
-      { id: "7-5", de: "Freitag", es: "Viernes" }
+      { id: "7-5", de: "Freitag", es: "Viernes" },
+      { id: "7-6", de: "Samstag", es: "Sábado" },
+      { id: "7-7", de: "Sonntag", es: "Domingo" }
     ]
   },
   {
@@ -217,6 +219,24 @@ export const vocabularyLevels = [
       { id: "20-3", de: "Schlecht", es: "Mal" },
       { id: "20-4", de: "Groß", es: "Grande" },
       { id: "20-5", de: "Klein", es: "Pequeño" }
+    ]
+  },
+  {
+    level: 21,
+    title: "Meses del Año",
+    pairs: [
+      { id: "21-1", de: "Januar", es: "Enero" },
+      { id: "21-2", de: "Februar", es: "Febrero" },
+      { id: "21-3", de: "März", es: "Marzo" },
+      { id: "21-4", de: "April", es: "Abril" },
+      { id: "21-5", de: "Mai", es: "Mayo" },
+      { id: "21-6", de: "Juni", es: "Junio" },
+      { id: "21-7", de: "Juli", es: "Julio" },
+      { id: "21-8", de: "August", es: "Agosto" },
+      { id: "21-9", de: "September", es: "Septiembre" },
+      { id: "21-10", de: "Oktober", es: "Octubre" },
+      { id: "21-11", de: "November", es: "Noviembre" },
+      { id: "21-12", de: "Dezember", es: "Diciembre" }
     ]
   }
 ];
